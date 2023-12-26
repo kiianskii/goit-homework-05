@@ -103,6 +103,9 @@ ul {
   color: var(--OCEAN, #404bbf);
 }
 
+.current {
+  color: var(--OCEAN, #404bbf);
+}
 .current::after {
   border-radius: 2px;
   background-color: #404bbf;
@@ -559,4 +562,59 @@ ul {
 
 .footer-icon-ref:focus {
   background-color: #31d0aa;
+}
+
+.footer-container-sub {
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  padding-left: 80px;
+}
+
+.footer-form-cont {
+  width: 453px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.sub-input {
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 264px;
+  height: 40px;
+  background-color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+  letter-spacing: 0.48px;
+  padding-left: 16px;
+  margin-left: 80px;
+  margin-top: 16px;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.sub-button {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  color: var(--WHITE, #fff);
+  width: 165px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 24px;
 }
