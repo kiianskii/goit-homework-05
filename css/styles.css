@@ -26,9 +26,6 @@ ul {
 
 .container {
   width: 1158px;
-  margin-left: 156px;
-  margin-right: 156px;
-  box-sizing: border-box;
   margin: 0 auto;
   padding: 0 15px;
 }
