@@ -740,7 +740,7 @@ ul {
   border-color: #4d5ae5;
 }
 
-.form-input:focus .person-icon {
+.form-input:focus + .person-icon {
   fill: #4d5ae5;
 }
 
