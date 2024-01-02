@@ -508,7 +508,7 @@
     </footer>
 
     <!-- Backdrop -->
-    <div class="is-closed">
+    <div class="is-open">
       <div class="backdrop">
         <button type="button" class="close-btn">
           <svg class="close-btn-icon" width="8" height="8">
@@ -520,7 +520,7 @@
         </p>
         <form class="form">
           <div class="modal-wrapper">
-            <label class="label-text"> Name</label>
+            <label for="user-name" class="label-text"> Name</label>
             <div class="modal-wrapper-icon">
               <input
                 class="form-input"
@@ -562,7 +562,7 @@
             </div>
           </div>
           <div class="modal-text-wrapper">
-            <label class="label-text">Comment</label>
+            <label for="user-comment" class="label-text">Comment</label>
             <textarea
               class="modal-text-field"
               name="user-comment"
@@ -572,13 +572,18 @@
           </div>
           <div class="form-check-wrapper">
             <input
-              class="modal-check-input"
+              class="form-check-input visually-hidden"
               type="checkbox"
               name="user-privacy"
               id="user-privacy"
               value="true"
             />
             <label class="form-check-label" for="user-privacy">
+              <span class="form-check-box">
+                <svg class="check-icon" width="8" height="10">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the<a
                 class="form-link-text"
                 href=""
